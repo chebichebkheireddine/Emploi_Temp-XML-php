@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<emploi>
+  <seance prof="KHAROUBI Sahraoui" module="Xml Avance et web 2.0" salle="4" jour="mardi" debut="08:00:00" fin="12:30:00"/>
+  <seance prof="CHADLI Abdelhafidh" module="Maintenance Logiciel" salle="23" jour="dimanche" debut="08:00:00" fin="11:00:00"/>
+  <seance prof="KHAROUBI Sahraoui" module="GPI" salle="23" jour="lundi" debut="09:30:00" fin="12:30:00"/>
+  <seance prof="OUARED Djillali" module="Developpement app Mobile" salle="23" jour="mardi" debut="08:00:00" fin="11:00:00"/>
+  <seance prof="DJAAFRI Laouni" module="Xml Avance et web 2.0" salle="23" jour="mercredi" debut="08:00:00" fin="12:30:00"/>
+</emploi>

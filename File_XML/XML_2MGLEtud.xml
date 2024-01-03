@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Promotion xmlns="http://www.w3.org/2001/XMLSchema" Option="MGL" niveau="2">
+  <etudiants>
+    <etudiant numInscription="6" nom="Hossam" prenom="ahmed"/>
+    <etudiant numInscription="6" nom="Hossam" prenom="ahmed"/>
+    <etudiant numInscription="6" nom="Hossam" prenom="ahmed"/>
+    <etudiant numInscription="6" nom="Hossam" prenom="ahmed"/>
+    <etudiant numInscription="6" nom="Hossam" prenom="ahmed"/>
+  </etudiants>
+  <modules>
+    <module idModule="1" nomModule="Maintenance Logiciel"/>
+    <module idModule="2" nomModule="GPI"/>
+    <module idModule="4" nomModule="Xml Avance et web 2.0"/>
+    <module idModule="3" nomModule="Developpement app Mobile"/>
+    <module idModule="4" nomModule="Xml Avance et web 2.0"/>
+  </modules>
+</Promotion>

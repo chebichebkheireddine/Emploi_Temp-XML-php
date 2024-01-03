@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    
+    
+    <xs:element name="Promotion" type="promotiontype"></xs:element>
+    <xs:complexType name="promotiontype">
+        <xs:sequence>
+            <xs:element name="etudiants" type="etudiantstype"></xs:element>
+            <xs:element name="modules" type="modulestype"></xs:element>
+        </xs:sequence>
+    
+    <xs:attribute name="Option" type="otionType" use="required"></xs:attribute>
+        <xs:attribute name="niveau" type="xs:string" use="required" ></xs:attribute>    
+    </xs:complexType>
+    <xs:complexType name="etudiantstype">
+        <xs:sequence>
+            <xs:element name="etudiant" type="etudType" maxOccurs="unbounded">
+                
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="modulestype">
+        <xs:sequence>
+            <xs:element name="module" type="modultype" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="etudType">
+        <xs:attribute name="numInscription" type="xs:string" use="required" ></xs:attribute>
+        <xs:attribute name="nom" type="xs:string" use="required"></xs:attribute>
+        <xs:attribute name="prenome" type="xs:string" use="required"></xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="modultype">
+        <xs:attribute name="idModule" type="xs:string" use="required"></xs:attribute>
+        <xs:attribute name="nomModule" type="xs:string" use="required"></xs:attribute>
+    </xs:complexType>
+    <xs:simpleType name="otionType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="L"/>
+            <xs:enumeration value="L"/>
+            <xs:enumeration value="L"/>
+            <xs:enumeration value="MGL"/>
+            <xs:enumeration value="MGL"/>
+            <xs:enumeration value="MGI"/>
+            <xs:enumeration value="MGI"/>
+            <xs:enumeration value="MRT"/>
+            <xs:enumeration value="MRT"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    
+</xs:schema>
